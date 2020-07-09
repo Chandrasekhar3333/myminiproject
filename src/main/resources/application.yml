@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: admin
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+ # Hibernate Properties
+jpa:
+  hibernate:
+      dialect:  Oracle12cDialect
+      ddl-auto: update
+      show_sql: true
+  #server configuration  
+server:
+  port: 8089
+  
+logging.level.org.springframework.web: DEBUG
+       
+      
+ 
+ 
+ 
+
+
+
+ 
+
+    
+    
+    
+      
+  
+      
+      
+      
